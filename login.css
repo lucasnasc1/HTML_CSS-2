@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #141414;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Inicio */
+.container{
+    border-radius: 5px;
+    padding: 30px;
+    background-color: aliceblue;
+    width: 300px;
+    height: 400px;
+}
+/* Formulario */
+.login{
+    margin-top: 20px;
+    
+}
+.login input{
+    background-color: #bebebe50;
+    border: 1px solid #bebebe50;
+    border-radius: 5px;
+    padding: 10px;
+    width: 240px;
+    margin-bottom: 10px;
+    
+}
+
+.login input[type="submit"]{
+    border:1px solid #141414;
+    width: 240px;
+    padding: 10px;
+    background-color: #141414;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+input[type="submit"]:hover {
+    letter-spacing: 0.9px;
+    transform: scale(1.05);
+}
+.login button:hover{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+/* footer */
+.footer span{
+    font-size: 12px;
+    margin-top: 28px;
+    margin-bottom: 2px;
+    text-align: center;
+    color: #000000b3;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.footer button{
+    cursor: pointer;
+    text-align: start;
+    width: 240px;
+    margin-top: 10px;
+    border-radius: 3px;
+    color: #fafafa;
+    padding: 6px;
+    text-decoration: none;
+    font-size: 12px;
+}
+.facebook{
+    border: 1px solid #1e3c72;
+    background-color: #1e3c72;
+}
+.twitter{
+    background-color: #56a7f2;
+    border: 1px solid #56a7f2;
+}
